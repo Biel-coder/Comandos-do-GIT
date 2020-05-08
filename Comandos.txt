@@ -1,11 +1,11 @@
 |PARA REMOVER O REPOSITORIO ATUAL:
-|git remote remove origin
+|git remote rm origin
 
 |PARA ADICIONAR REPOSITÓRIO PARA MANUSEIO:
 |git remote add origin (o link do repositório)
 
 |PARA DAR UM PUSH DE ARQUIVOS NO REPOSITÓRIO: (Só irá funcionar se você colocou o código anterior)
-|git push -u origin master
+|git push -u origin master ou git push
 
 |PARA INICIALIZAR O GIT
 |git init
@@ -18,3 +18,17 @@
 
 |PARA ADICIONAR UM COMENTÁRIO NOS ARQUIVOS QUE SERÃO ENVIADOS
 |git commit -m "Aqui vai o seu comentário"
+
+---------------------------------------   DELETAR PASTAS   -------------------------------------------
+
+|PARA VERIFICAR SE ESTÁ SINCRONIZADO COM O REPOSITÓRIO REMOTO
+|git pull origin master
+
+|PARA REMOVER A PASTA LOCALMENTE
+|git rm -r
+
+|PARA DAR UM COMMIT
+|git commit -m "..."
+
+|PARA SINCRONIZAR
+|git push origin master
