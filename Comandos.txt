@@ -1,0 +1,20 @@
+|PARA REMOVER O REPOSITORIO ATUAL:
+|git remote remove origin
+
+|PARA ADICIONAR REPOSITÓRIO PARA MANUSEIO:
+|git remote add origin (o link do repositório)
+
+|PARA DAR UM PUSH DE ARQUIVOS NO REPOSITÓRIO: (Só irá funcionar se você colocou o código anterior)
+|git push -u origin master
+
+|PARA INICIALIZAR O GIT
+|git init
+
+|PARA VERIFICAR OS ARQUIVOS QUE NÃO SOFRERAM PUSH
+|git status
+
+|PARA ADICIONAR OS ARQUIVOS (As áspas irá adicionar todos)
+|git add *
+
+|PARA ADICIONAR UM COMENTÁRIO NOS ARQUIVOS QUE SERÃO ENVIADOS
+|git commit -m "Aqui vai o seu comentário"
