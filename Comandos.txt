@@ -27,6 +27,11 @@
 |PARA REMOVER A PASTA LOCALMENTE
 |git rm -r
 
+---------------------------------------   GITPOD.IO   -------------------------------------------------
+
+|PARA SINCRONIZAR O CODIGO GIT NO GITPOD
+|gitpod.io/#(link do repositório git)
+
 |PARA DAR UM COMMIT
 |git commit -m "..."
 
